@@ -7,7 +7,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { CardActions } from '@mui/material';
 import { onAuthStateChanged, getAuth } from 'firebase/auth';
-import { app } from "../App/firebase"
+import { app } from "../app/firebase"
 import { loginFailure, loginSuccess } from '../features/auth/authSlice';
 import { green } from '@mui/material/colors';
 import EmployeeFormModal from './EmployeeFormModal';
